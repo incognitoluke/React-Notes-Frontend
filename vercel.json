@@ -4,5 +4,12 @@
           "source":"/api/:match*",
           "destination":"https://lukenotes-backend.herokuapp.com/api/:match*"
        }
-    ]
+    ],
+
+    "redirects":[
+        {
+           "source":"/api/:match*",
+           "destination":"https://lukenotes-backend.herokuapp.com/api/:match*"
+        }
+     ]
  }
