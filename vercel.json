@@ -1,8 +1,12 @@
 {
     "redirects":[
        {
-          "source":"/api/:path",
-          "destination":"https://lukenotes-backend.herokuapp.com/api/:path"
-       }
+          "source":"/api/:match*",
+          "destination":"https://lukenotes-backend.herokuapp.com/api/:match*"
+       },
+       {
+            "source": "/view-source", 
+            "destination": "https://github.com/vercel/vercel"
+        }
     ]
  }
